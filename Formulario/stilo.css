@@ -1,0 +1,138 @@
+#corpo{
+    background-color: purple;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: auto;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+h1{
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: start;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+h2{
+    height: 20px;
+    width: 180px;
+    font-size: 11px;
+    color: red;
+    position: relative;
+    margin-top: auto;
+    float: right;
+}
+
+h3{
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: center;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin-top: auto;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: purple;
+    text-decoration: black;
+    border-color: black;
+}
+
+input[type="email"]{
+    width: 100%;
+    margin-top: auto;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: purple;
+    text-decoration: black;
+    border-color: black;
+}
+
+input[type="password"]{
+    width: 100%;
+    margin-top: auto;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: purple;
+    text-decoration: black;
+    border-color: black;
+}
+
+select{
+    width: 100%;
+    margin-top: auto;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: purple;
+    text-decoration: black;
+    border-color: black;
+}
+
+input[type="file"]{
+    width: 100%;
+    margin-top: auto;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: purple;
+    text-decoration: black;
+    border-color: black;
+}
+
+label.error {
+	color: red;
+}
+
+button{
+    height: 30px;
+    width: 200px;
+    background-color: purple;
+    border-radius: 50px;
+    border-color: white;
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;    
+}
+
+.inv{
+    display: none;
+}
+
+
+#reservista{
+    display: none;
+}
+
