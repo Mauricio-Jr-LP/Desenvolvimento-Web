@@ -1,0 +1,665 @@
+@import url('https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book');
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: "Circular Std Book"
+}
+
+body{
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Circular Std Book";
+}
+
+#main-container{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);	
+}
+
+#sec-container{
+    width: 100%;
+    height: 100%;
+    background-image: url("hero-burst.svg");
+    background-size: cover;
+    background-position: -50px;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-bar .btn-links{
+    padding-top: 20px;
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.nav-bar .btn-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar .btn-links li{
+    margin-right: 10px;
+    color: white;
+}
+
+.nav-bar .btn-links li:hover{
+    cursor: pointer;
+    color: #13b025;
+}
+
+.nav-bar #logo{
+    width: 200px;
+    float: left;
+    margin-top: -10px;
+    margin-right: 950px;
+}
+
+#logo svg{
+    fill: #FFF;
+    width: 150px;
+}
+
+#main-msg{
+    width: 800px;
+    color: #fff;
+    margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+	margin-top: 200px;
+}
+
+#main-msg h1{
+    font-size: 70px;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+#main-msg h4{
+    line-height: 100px;
+}
+
+.btn{
+    border-radius: 15px;
+    height: 20px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+.btn-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-green{
+    background-color: #1db954;
+    color: white;
+}
+
+.btn-green:hover{
+    background-color: #1b9249;
+    cursor: pointer;
+}
+
+.list-btn{
+    display: inline-flex;  
+    list-style: none;
+    color: #fff;
+    
+    float: right;
+    margin-right: 10px;
+}
+
+.list-btn li{
+    margin-right: 10px;
+}
+
+.list-btn li:hover{
+    cursor: pointer;
+    color: #1DB954;
+}
+.sep{
+    height: 16px;
+    width: 1px;
+    margin: auto 17px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+.nav-bar-loguin{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+}
+
+.nav-bar-loguin #logo-loguin{
+    width: 200px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo-loguin svg{
+    fill: black;
+    width: 200px;
+}
+
+#msg-loguin{
+    width: 400px;
+    color: black;
+    margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+	margin-top: 30px;
+}
+
+#msg-loguin h1{
+    font-size: 15px;
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.btn-loguin{
+    border-radius: 50px;
+    height: 30px;
+    width: 500px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+.btn-blue{
+    background-color: #3163a5;
+    color: white;
+}
+
+#text{
+    position: relative;
+    float: right;
+    width: 10px;
+    padding-bottom: 10px;
+}
+
+#face{
+    position: relative;
+    float: left;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+.btn-black{
+    background-color: #000000;
+    color: white;
+    margin-top: 10px;
+}
+
+#apple{
+    position: relative;
+    float: left;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+#text{
+    position: relative;
+    float: right;
+    width: 10px;
+    padding-bottom: 10px;
+}
+
+#ou{
+    width: 400px;
+    color: black;
+    margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.line {
+    height: 1px;
+    width: 300px;
+    background-color: #dddbdb;
+    margin: 0 10px;
+
+}
+
+#label1{
+    width: 475px;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+#email{
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+    font-style: initial; 
+}
+
+#label2{
+    width: 475px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+#senha{
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#divcheckbox{
+    width: 470px;
+    color: black;
+    margin-top: 30px;
+	margin-right: auto;
+}
+
+#checkbox{
+    bottom: 10px;
+    column-rule-color: blue;
+    border-bottom: olivedrab;
+}
+
+.btn-entrar{
+    border-radius: 50px;
+    height: 30px;
+    width: 250px;
+    margin-top: -30px;
+    margin-left: 250px;
+	margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+.btn-green{
+    background-color: #1db954;
+    color: white;
+}
+#esquecersenha{
+    margin-top: 30px;
+    margin-left: auto;
+	margin-right: center;
+}
+
+#esquecersenha h3{
+    font-size: 20px;
+    color: #1db954;
+    text-align: center;
+}
+#inconta{
+    margin-top: 80px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+#inconta h1{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.btn-inscrever{
+    height: 30px;
+    width: 500px;
+    border-radius: 50px;
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+.btn-white{
+    background-color: #FFF;
+    
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.nav-bar-home{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+#logo-home svg{
+    fill: white;
+    width: 150px;
+    position: relative;
+    margin-right: 980px;
+    bottom: 25%;
+}
+
+.nav-bar-home .btn-links{
+    padding-top: 20px;
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    float: right;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+.nav-bar-home .btn-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar-home .btn-links li{
+    margin-right: 10px;
+    color: white;
+}
+
+.nav-bar-home .btn-links li:hover{
+    cursor: pointer;
+    color: #13b025;
+}
+
+#ftperfil{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50px;
+    bottom: 25%;
+}
+
+#homeCorpo{
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Circular Std Book";
+    background-color: rgb(36, 47, 65);
+}
+
+#centro{
+    width: 1335px;
+    height: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px;
+    position: relative;
+    background-color: rgb(52, 78, 197);
+    color: white;
+    text-align: center;
+}
+
+#centro h3{
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#centro h2{
+    font-size: 40px;
+    line-height: 10px;
+    line-height: 50px;
+}
+
+#centro h1{
+    
+    line-height: 80px;
+}
+
+#menu{
+    position: relative;
+    border-width: 2px;
+    float: left;
+    width: 400px;
+    height: 600px;
+    margin-left: 40px;
+    background-color: rgb(32, 32, 32);
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+#menu #ftMenu{
+    width: 100%;
+    height: 150px;
+}
+
+#ftMenu #ft{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+.itens{
+    width: 100%;
+    height: 75px;
+    border-top-width: thin;
+    border-top-color: rgb(179, 179, 179);
+    border-top-style: inset;
+    border-bottom-width: thin;
+    border-bottom-color: rgb(179, 179, 179);
+    border-bottom-style: inset;
+}
+
+#divCasa #casa{
+    width: 20px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+#casa svg{
+    fill: white;
+    width: 70px;
+}
+
+#divCasa{
+    color: white;
+}
+
+#divCasa h1{
+    position: relative;
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+#divCartao #cartao{
+    width: 20px;
+    height: 20px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+#cartao {
+    fill: white;
+    width: 50px;
+    margin-top: 50%;
+}
+
+#divCartao{
+    color: white;
+}
+
+#divCartao h1{
+    position: relative;
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+    padding-right: -30px;
+    font-size: 20px;
+}
+
+#divPremium #premium{
+    width: 20px;
+    margin-top: 27px;
+    margin-left: 20px;
+    
+}
+
+#premium {
+    fill: white;
+    width: 50px;
+    margin-top: 50%;
+}
+
+#divPremium{
+    color: white;
+}
+
+#divPremium h1{
+    position: relative;
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+#divEdit #edit{
+    width: 20px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+#edit{
+    fill: white;
+    width: 50px;
+    margin-top: 50%;
+}
+
+#divEdit{
+    color: white;
+}
+
+#divEdit h1{
+    position: relative;
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+#info{
+    position: relative;
+    border-width: 2px;
+    float: left;
+    margin-right: 40px;
+    width: 1035px;
+    height: 600px;
+    background-color: white;
+}
+
+#info h1{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 40px;
+    line-height: 10px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+#info h2{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 10px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+#labEmail{
+    width: 100%;
+    border-radius: 50px;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    margin-right: 100px;
+    
+}
+
+#demail{
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    font-style: initial;   
+    margin-left: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#labData{
+    width: 100%;
+    border-radius: 50px;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    margin-right: 100px;
+    margin-top: 10px;
+    
+}
+
+#nasc{
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    font-style: initial;   
+    margin-left: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
